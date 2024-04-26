@@ -29,7 +29,7 @@
         align-items: center;
     }
     .sectiontop{
-        padding-bottom: 32px;
+      
       }
      
     .emailtop{
@@ -67,11 +67,11 @@
         height:34px;
     }  
     .logosbot{
-        margin-top: 67px;
+        margin-top: 40px;
         gap: 53px;
     }
     .bgtop2{
-        height: 100vh;
+        height: 115vh;
     }
     .navbarul{
         padding-right: 42px;

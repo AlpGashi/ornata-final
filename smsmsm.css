@@ -1,0 +1,11 @@
+@media  (min-width:350px){
+    .sectiontop h5{
+        font-size: 12px;
+    }
+    .sectiontop h1{
+        font-size: 24px;
+    }
+    .sectiontop p{
+        font-size: 11px;
+    }
+} 

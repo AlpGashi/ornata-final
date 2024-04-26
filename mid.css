@@ -1,0 +1,78 @@
+@media  (min-width:858px) and (max-width:1340px){
+    img.logonav{
+        height:auto;
+        width: 273px;
+        padding-left: 52px;
+    }
+    .sideinfocont1{
+        display: none;
+    }
+    .bgtop2{
+    height: 814px;
+    }
+    section h5{
+        font-size: 15px;
+    }
+    section h1{
+        font-size: 36px;
+        margin-bottom: 7px
+    }
+    section p{
+        font-size: 14px;
+    }
+    .sectiontop{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    section{
+        margin-left: 79px;
+    }
+    .sectiontop{
+        padding-bottom: 20px;
+      }
+    .emailtop{
+        display: flex;
+        gap: 16px;
+    }
+    .name, .emailadress{
+        width: 329px;
+        height: 40px;
+        color: white;
+        font-family: poppins;
+        padding-left: 10px;
+    }
+    .message {
+        margin-top: 16px;
+        padding-bottom: 231px;
+        width:685px;
+        color: white;
+        font-family: poppins;
+      padding-left: 10px;
+      padding-top: 10px;
+       
+      }
+      .butonsend{
+        margin-top: 32px;
+        width: 294px;
+        height: 65px;
+        font-size: 20px;
+      }
+      
+    .logo{
+        width: auto;
+        height:34px;
+    }  
+    .logosbot{
+        margin-top: 30px;
+        gap: 26px;
+    }
+    .bgtop2{
+        height: 100vh;
+    }
+    .navbarul{
+        padding-right: 42px;
+    }
+    .dontshowbig{
+        display: none;
+    }
+}

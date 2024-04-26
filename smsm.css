@@ -1,0 +1,89 @@
+@media   (max-width:506px){
+  
+    img.logonav{
+        height:auto;
+        width: 150px;
+        padding-left: 52px;
+    }
+    .sideinfocont1{
+        display: none;
+    }
+    .sectiontop h5{
+        font-size: 17px;
+    }
+    .sectiontop h1{
+        font-size: 26px;
+        
+    }
+    .sectiontop p{
+        font-size: 12px;
+    }
+    .sectiontop{
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    section{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectiontop{
+        padding-bottom: 32px;
+      }
+     
+    .emailtop{
+        display: flex;
+        gap: 13px;
+        flex-direction: column;
+    }
+    .name, .emailadress{
+        width: 264px;
+        height: 40px;
+        color: white;
+        font-family: poppins;
+        padding-left: 10px;
+    }
+    .message {
+        margin-top: 13px;
+        padding-bottom: 152px;
+        width:264px;
+        color: white;
+        font-family: poppins;
+      padding-left: 10px;
+      padding-top: 10px;
+       
+      }
+      .butonsend{
+        margin-top: 28px;
+      margin-left:42px;
+        height: 42px;
+        font-size: 14px;
+    width: 190px;
+      }
+      
+    .logo{
+        width: auto;
+        height:34px;
+    }  
+    .logosbot{
+        margin-top: 67px;
+        gap: 53px;
+    }
+    .bgtop2{
+        height: 100vh;
+    }
+    .navbarul{
+        padding-right: 42px;
+    }
+    .dontshowbig{
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width:400px) {
+    .sidebar li{
+        margin-left: 48px;
+    }
+}

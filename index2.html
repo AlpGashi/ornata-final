@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ornata</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="pernavbar.css">
+    <link rel="stylesheet" href="lg.css">
+    <link rel="stylesheet" href="mid.css">
+    <link rel="stylesheet" href="sm.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="smsm.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container1">
+        <img class="bgtop2" src="images/bgtop22.png" alt="">
+        <nav>
+            <ul class="sidebar">
+                <div class=""><li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="" height="26" viewBox="0 96 960 960" width="26"><path class="svgpertel" d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"fill="#ffffff"/></svg></a></li>
+                </div>
+              <li class="sidebarlement" ><a href="home-page.html">Home</a></li>
+              <li class="sidebarlement" ><a href="index2.html">Contact</a></li>
+              <li class="sidebarlement" ><a href="index2.html">Help</a></li>
+    
+            </ul>
+            <ul class="navbarul" >
+              <li class="logonav" ><a class="logonav" href="index.html"><img class="logonav" src="images/logo.png" alt=""></a></li>
+              <div class="navelements">
+                <li class="hideOnMobile hideOnMobile1"><a href="home-page.html">Home</a></li>
+                <li class="hideOnMobile hideOnMobile1"><a href="index2.html">Contact</a></li>
+                <li class="hideOnMobile hideOnMobile1"><a href="#">About Us</a></li>
+                <li class="hideOnMobile hideOnMobile1"><a href="index2.html">Help</a></li>
+              </div>
+             
+              <div class="sideinfocont1">
+                <li class="hideOnMobile emailfor">Email us for any questions</li>
+                <li class="hideOnMobile emailmeat">ornatadesigns@gmail.com</li>
+
+              </div>
+                
+              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" fill="#ffffff"/></svg></a></li>
+            </ul>
+          </nav>
+          <section> 
+            <div class="sectiontop">
+                <h5>FORM</h5>
+            <h1>GET IN TOUCH</h1>
+            <p class="showbig">As you might expect of a company that began as <br> a high-
+                end interiors contractor, we pay strict <br> attention.</p>
+              
+                <p class="dontshowbig" >As you might expect of a company that began <br> as a high-
+                  end interiors contractor, we pay strict <br> attention.</p>
+
+            </div>
+            <div class="sectionbot"></div>
+            <div class="email">
+              <form action="https://formspree.io/f/xvoewybn"method="POST">
+                    <div class="emailtop">
+                        <input class="name" type="Name" name="Name" placeholder="Name" pl>
+                    <input class="emailadress" type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    
+                    <input type="hidden" name="_subject" value="New Mail!">
+                    
+                    <div class="emailbot">
+                        <input class="message" type="text" name="Message" placeholder="Message" required>
+                    </div>
+
+                    <div class="emailbut">
+                        <button class="butonsend" type="submit">Send Message</button>
+                    </div>
+                    <input type="hidden" name="_autoresponse" value="We'll reply to you shortly">
+                    
+                    
+
+                </form>
+            </div>
+            <div class="logosbot">
+              <a href="https://www.fiverr.com/ornata_designs?public_mode=true"><img src="images/fiverr.png" alt="" class="logo"></a>
+              <a href="https://www.instagram.com/ornata_designs_/"><img src="images/instagram.png" alt="" class="logo"></a>
+              <a href="https://www.facebook.com/profile.php?id=61554592315894"><img src="images/facebook.png" alt="" class="logo"></a>
+              <a href=""><img src="images/tiktok.png" alt="" class="logo"></a>
+            </div>
+          </section>
+       
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+</html>

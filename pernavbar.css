@@ -181,8 +181,7 @@
   }
   @media screen and (max-width: 400px){
     .sidebar{
-      width: 100%;
-      backdrop-filter: blur(50px);
+     background-color: #101010;
     }
   }
   .bgtop2{

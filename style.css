@@ -807,7 +807,9 @@ margin-top: 100px;
 .sidebar a {
   margin-left: 20px;
 }
-
+a{
+  text-decoration: none;
+}
 .titles-container2{
   display: flex;
   flex-direction: column;

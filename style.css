@@ -10,13 +10,20 @@ position: absolute;
   padding: 0;
 }
 body{
-  background-color: white;
+  
   background-image: url(images/Screenshot_6.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
 .top h5{
     font-family: poppins;
     color:#DFA667 ;

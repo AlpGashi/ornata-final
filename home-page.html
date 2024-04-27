@@ -478,16 +478,20 @@
           sidebar.style.display = 'none'
         }
 
-        window.onload = function() {
-    // Check if the user agent contains "Android"
-    if (/Android/.test(navigator.userAgent)) {
-        // Check if the device is in dark mode
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            // Show the alert when in dark mode
-            alert("Tip: Switching to light mode may improve the visibility of the images.");
-        }
+        // Check if the device is using a dark theme
+const darkThemeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+// Function to display the alert
+function displayDarkModeTip() {
+    // Check if the device is in dark mode
+    if (darkThemeMediaQuery.matches) {
+        // Show the alert
+        alert("Tip:\nSwitching to light mode may improve the visibility of the images.");
     }
 }
+
+// Call the function when the page loads
+window.onload = displayDarkModeTip;
 
 
 

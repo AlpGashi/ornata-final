@@ -478,20 +478,20 @@
           sidebar.style.display = 'none'
         }
 
-        // Check if the device is using a dark theme
-const darkThemeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      
+    // Check if the device is Android
+    const isAndroid = /Android/.test(navigator.userAgent);
 
-// Function to display the alert
-function displayDarkModeTip() {
-    // Check if the device is in dark mode
-    if (darkThemeMediaQuery.matches) {
-        // Show the alert
-        alert("Tip:\nSwitching to light mode may improve the visibility of the images.");
+    // Function to show the alert
+    function showAlert() {
+        if (isAndroid) {
+            alert("Switching to light mode may improve the visibility of the images.");
+        }
     }
-}
 
-// Call the function when the page loads
-window.onload = displayDarkModeTip;
+    // Call the showAlert function when the page loads
+    window.onload = showAlert;
+
 
 
 

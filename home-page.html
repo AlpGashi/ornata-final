@@ -478,49 +478,21 @@
           sidebar.style.display = 'none'
         }
 
-        
-
-
-
-
         window.onload = function() {
-    // Check if the user agent contains "Android"
-    if (/Android/.test(navigator.userAgent)) {
-        // Check if the device is in dark mode
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            // Show a custom modal dialog
-            Swal.fire({
-                title: "You are currently using dark mode.",
-                text: "Would you like to switch to light mode?",
-                showCancelButton: true,
-                confirmButtonText: "OK",
-                cancelButtonText: "Cancel",
-                reverseButtons: true,
-                showCloseButton: true,
-                showDenyButton: true,
-                denyButtonText: "Turn on Light Mode",
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    // Handle OK button click
-                    // You can replace this with your implementation
-                    Swal.fire("Light mode is now turned on!", "", "success");
-                } else if (result.isDenied) {
-                    // Handle Turn on Light Mode button click
-                    // You can replace this with your implementation to turn on light mode
-                    Swal.fire("Light mode is now turned on!", "", "success");
-                } else {
-                    // Handle cancel button click or close button click
-                    // You can replace this with your implementation
-                    console.log("Dialog closed without action.");
-                }
-            });
-        } else {
-            // Device is in light mode, no need to show the alert
-            console.log("Device is already in light mode.");
-        }
+    // Check if the user agent contains "Android" and the device is in dark mode
+    if (/Android/.test(navigator.userAgent) && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        // Show the alert
+        alert("Tip: Switching to light mode may improve the visibility of the images.");
     }
 }
 
+
+
+
+
+        
+
+       
       </script>
 </body>
 </html>

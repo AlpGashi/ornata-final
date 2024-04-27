@@ -479,10 +479,13 @@
         }
 
         window.onload = function() {
-    // Check if the user agent contains "Android" and the device is in dark mode
-    if (/Android/.test(navigator.userAgent) && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // Show the alert
-        alert("Tip: Switching to light mode may improve the visibility of the images.");
+    // Check if the user agent contains "Android"
+    if (/Android/.test(navigator.userAgent)) {
+        // Check if the device is in dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            // Show the alert when in dark mode
+            alert("Tip: Switching to light mode may improve the visibility of the images.");
+        }
     }
 }
 

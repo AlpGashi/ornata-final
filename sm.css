@@ -1,7 +1,5 @@
 @media  (min-width:506px) and (max-width:858px){
-    .bgtop2{
-        height: 100vh;
-    }
+   
     img.logonav{
         height:auto;
         width: 273px;
@@ -78,7 +76,7 @@
         gap: 53px;
     }
     .bgtop2{
-        height: 100vh;
+        height: 139vh;
     }
     .navbarul{
         padding-right: 42px;

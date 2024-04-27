@@ -804,8 +804,9 @@ background-attachment: fixed;
 margin-top: 100px;
 
 }
-
-
+.sidebar a {
+  margin-left: 20px;
+}
 
 .titles-container2{
   display: flex;

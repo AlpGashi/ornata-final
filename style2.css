@@ -73,3 +73,6 @@
 .message{
     word-wrap: break-word;
 }
+.sidebar a {
+    margin-left: 20px;
+}

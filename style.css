@@ -10,7 +10,7 @@ position: absolute;
   padding: 0;
 }
 body{
-  
+  position: absolute;
   background-image: url(images/Screenshot_6.png);
   background-size: cover;
   background-position: center;

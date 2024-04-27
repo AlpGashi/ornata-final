@@ -477,6 +477,15 @@
           const sidebar = document.querySelector('.sidebar')
           sidebar.style.display = 'none'
         }
+
+        window.onload = function() {
+    // Check if the user agent contains "Android"
+    if (/Android/.test(navigator.userAgent)) {
+        // Show an alert message
+        alert("Please turn on light mode for better perception.");
+    }
+}
+
       </script>
 </body>
 </html>

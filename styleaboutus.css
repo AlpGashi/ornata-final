@@ -1,0 +1,275 @@
+  per nav 
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    min-height: 100vh;
+    background: url('laptop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+ 
+  nav li a{
+    margin: 0;
+    padding: 0;
+  font-family: poppins;
+  color: #FFFFFF;
+  }
+  .emailfor{
+    font-family: aldrich;
+    color: #b7b7b7;
+  }
+  .emailmeat{
+    color: #DFA667;
+    font-family: poppins;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(50px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+    color: #FFFFFF;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width:922px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+  
+  
+  }
+  @media screen and (max-width: 400px){
+    .sidebar{
+     background-color: #101010;
+    }
+  }
+  .bgtop2{
+    z-index: -100;
+    position: absolute;
+    width: 100%;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .navelements{
+    display: flex;
+    gap: 48px;
+  }
+  .sideinfocont1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-right: 29px;
+  }
+
+/* styling i nav */
+
+.container1{
+    width: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-button{
+    box-shadow: inset 0 0 0 1px black;
+
+}
+.hideOnMobile1 a{
+    color: black;
+    font-family: inter;
+}
+.navbar{
+    height: 50px;
+}
+.container1{
+    height: 50px;
+}
+a{
+    font-family: inter;
+}
+.logonav{
+    padding-left: 23px;
+    align-items: center;
+    justify-content: center;
+}
+.navbarul{
+    padding-right: 23px;
+}
+  /* CONTAINER 2 */
+.cont2-main h6{
+  font-family: Inter;
+  color: #5B627D;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.cont2-main h1{
+  font-family: aldrich;
+  font-size: 28px;
+  color: #232938;
+  font-weight: 400;
+  text-align: center;
+}
+.cont2-main p{
+  font-family: inter;
+  color: #5B627D;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contactlink1{
+  color: white;
+  background-color: #DFA667;
+  border-radius: 5px;
+  border: none;
+  width: 244px;
+  height: 41px;
+  font-family: inter;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.heroimg{
+  width: 244px;
+}
+.bluecont2{
+  background-color: #0075FF;
+  opacity: 0.07;
+  width: 194px;
+  height: 194px;
+  border-radius: 50%;
+  filter: blur(50px);
+  position: absolute;
+  z-index: -9;
+}
+.orangecont2{
+  background-color: #FFC700;
+  opacity: 0.07;
+  width: 194px;
+  height: 194px;
+  border-radius: 50%;
+  filter: blur(50px);
+  position: absolute;
+  z-index: -9;
+}
+
+/* -------------------------- */
+/* CONTAINER 3 */
+
+/* ======================================== */
+/* CONTAINER 4 */
+.botcont4 h6{
+  font-family: inter;
+  font-size: 10px;
+  color: #5B627D;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 4px;
+}
+.botcont4 h1{
+  font-family: inter;
+  font-weight: 600;
+  line-height: 24px;
+  color: #232938;
+}
+.botcont4 p{
+  font-family: inter;
+  font-weight: 500;
+  color: #5B627D;
+}
+/* ======================================== */
+
+/* EFFECTS */
+.homepage:hover{
+  text-decoration: underline;
+  text-decoration-color: #dfa667;
+  transform: scale(1.05);
+  text-underline-offset: 3px;  
+transition: text-decoration-color 0.2s ease-out ;
+}
+.aboutus2:hover{
+  text-decoration: underline;
+  text-decoration-color: #dfa667;
+  transform: scale(1.05);
+  text-underline-offset: 3px;  
+transition: text-decoration-color 0.2s ease-out ;
+}
+.help1:hover{
+  text-decoration: underline;
+  text-decoration-color: #dfa667;
+  transform: scale(1.05);
+  text-underline-offset: 3px;  
+transition: text-decoration-color 0.2s ease-out ;
+}
+  .homepage, .aboutus2, .help1{
+    text-decoration: white;
+  }
+  .btn1 {
+    transform: scale(1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .btn1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+  }
+.hover:hover{
+  
+    text-decoration: underline;
+    text-decoration-color: #C8CEE3;
+    transform: scale(1.05);
+    text-underline-offset: 3px;  
+  transition: text-decoration-color 0.2s ease-out ;
+
+}
+/* ==================================== */

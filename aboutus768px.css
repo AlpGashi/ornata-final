@@ -1,0 +1,29 @@
+@media screen and (min-width:768px ) {
+    .container2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 60px;
+        gap: 55px;
+    }
+    .cont2-main {
+align-items: start;
+    }
+    .cont2-main p , h1{
+        text-align: left;
+    }
+    .contactlink1{
+        width: 343px;
+        margin-top: 24px;
+    }
+    .cont2-main p{
+        width: 343px;
+        white-space:normal;
+        word-wrap: break-word;
+    }
+    /* Container3 */
+    
+     
+   }
+    /* ------------------------------- */
+

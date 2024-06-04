@@ -1,0 +1,151 @@
+.cont3mid{
+    display: flex;
+
+}
+
+
+@media screen and (max-width:767px) {
+    .cont3mid{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .cont3mid p{
+        width: 241px;
+        white-space: normal;
+        word-wrap: break-word;
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+    .cont3mid h1{
+        font-size: 35px;
+    }
+    .orangeline{
+        width: 293px;
+    }
+    .container33{
+        margin-top: 90px;
+    }
+}
+@media screen and (min-width:768px)and (max-width:1023px) {
+    .cont3mid{
+        margin: 0 auto;
+        max-width: 645px;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 65px;
+        margin-bottom:65px ;
+        flex-wrap: wrap;
+    }
+    .cont3mid p{
+        width: 242px;
+        white-space: normal;
+        word-wrap: break-word;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+    .cont3mid h1{
+        font-size: 44px;
+    }
+    .orangeline{
+        width: 648px;
+    }
+    .card1{
+        margin-right: 160px;
+    }
+    .card3{
+        margin-top: 70px;
+    }
+    .container33{
+        margin-top: 180px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .cont3mid{
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin-top: 96px;
+    }
+    .cont3mid p{
+        width: 242px;
+        white-space: normal;
+        word-wrap: break-word;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+    .cont3mid h1{
+        font-size: 44px;
+    }
+    .orangeline{
+        width: 648px;
+    }
+    .cont3mid{
+        max-width: 1391px;
+        margin: 70px auto;
+    }
+    .container33{
+        margin-top: 100px;
+    }
+    .orangeline{
+        width: 1000px;
+    }
+}
+
+.cont3mid h1{
+    font-family: inter;
+    font-weight: 500;
+    color: #232938;
+}
+.cont3mid p{
+    font-family: inter;
+    font-weight: 500;
+    color: #5B627D;
+}
+.card1 h1, p, .card2 h1, p, .card3 h1, p{
+    text-align: center;
+}
+
+.cont3top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont3top h6{
+    font-size: 10px;
+    font-family: inter;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.orangeline{
+    background-color: #DFA667;
+    height: 1.1px;
+}
+.o2{
+    margin: 0 auto;
+}
+.card1, .card2, .card3{
+position: relative;
+
+}
+.blurbg{
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: #DFA667;
+    filter: blur(150px);
+
+}
+.card1 {
+    z-index: 2;
+}
+

@@ -1,0 +1,118 @@
+@media screen and (min-width:320px ) {
+    /* CONTAINER 2 */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        margin-top: 34px;
+    }
+    .cont2-main p{
+        margin-top: 18px;
+    }
+    .contactlink1{
+        margin-top: 20px;
+    }
+   
+    .bluecont2{
+        right: 0px;
+        top: 165px;
+    }
+    .orangecont2{
+        top: 161px;
+        left: 0px;
+    }
+     .contactlink1{
+        width: 244px;
+        
+        
+    }
+    .cont2-sub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+       
+    }
+    .heroimg{
+      width: 244px;
+      margin: 0;
+      margin-top: 36px;
+    }
+    .cont2-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont2-main p{
+        width: 244px;
+        white-space:normal;
+        word-wrap: break-word;
+    }
+    .logonav{
+        width: 170px;
+        
+        margin-left: px;
+    }
+    .cont2-main h1{
+        width: 260px;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+    
+    /* ------------------------------ */
+    /* CONTAINER 3 */
+     .container3{
+       
+        background: linear-gradient(45deg, white 0%,  rgba(255, 247, 241, 0.51) 50%,  white 100%);
+        border-radius: 40px;
+
+        
+    }
+ 
+/* .orangecont3-1{
+    background-color: #DFA667;
+    filter: blur(150px);
+    width: 194px;
+    height: 194px;
+    border-radius: 100px;
+    position: absolute;
+    left: -50%;
+    overflow: hidden;
+    
+}
+.orangecont3-2{
+    background-color: #DFA667;
+    filter: blur(150px);
+    width: 194px;
+    height: 194px;
+    border-radius: 100px;
+    position: absolute;
+    overflow: hidden;
+    
+    
+}
+.orangecont3-11{
+    background-color: #DFA667;
+    filter: blur(150px);
+    width: 194px;
+    height: 194px;
+    border-radius: 100px;
+    position: absolute;
+    overflow: hidden;
+   
+} */
+
+
+    /* ------------------------------ */
+    /* CONTAINER 4 */
+    /* ------------------------------ */
+    /* CONTAINER 5 */
+    /* ------------------------------ */
+}
+

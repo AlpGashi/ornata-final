@@ -425,3 +425,11 @@ height: 20%;
     text-underline-offset: 3px;  
   transition: text-decoration-color 0.2s ease-out ;
   }
+  body {
+    background-color: white;
+    /* Vendor prefixes for older browsers (not recommended for modern development) */
+    -webkit-background-color: white; /* Safari, Chrome, etc. */
+    -moz-background-color: white; /* Firefox */
+    -ms-background-color: white; /* Internet Explorer, Edge */
+    -o-background-color: white; /* Opera (less common now) */
+  }

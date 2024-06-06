@@ -304,9 +304,13 @@ a{
     text-align: right;
 }
 }
-.topi1baba{
-    margin-top: 100px;
-}
+
+
+    .topi1baba{
+        margin-top: 60px;
+    }
+    
+
 @media screen and (min-width:1024px)and (max-width:1440px){
     .topi1baba{
         width: 100%;

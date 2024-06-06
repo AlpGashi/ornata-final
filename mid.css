@@ -69,8 +69,13 @@
    
     .navbarul{
         padding-right: 42px;
+        
     }
     .dontshowbig{
         display: none;
     }
+}
+.navbarul{
+    margin-top: 20px;
+        margin-left: 20px;
 }

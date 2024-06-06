@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    min-height: 100vh;
+    background: url('laptop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+ 
+  nav li a{
+    margin: 0;
+    padding: 0;
+  font-family: poppins;
+  color: #FFFFFF;
+  }
+  .emailfor{
+    font-family: aldrich;
+    color: #b7b7b7;
+  }
+  .emailmeat{
+    color: #DFA667;
+    font-family: poppins;
+  }
+ 
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+    color: #FFFFFF;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width:922px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+  
+  
+  }
+  @media screen and (max-width: 400px){
+    .sidebar{
+     background-color: #101010;
+    }
+  }
+  .bgtop2{
+    z-index: -100;
+    position: absolute;
+    width: 100%;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .navelements{
+    display: flex;
+    gap: 48px;
+  }
+  .sideinfocont1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-right: 29px;
+  }
+  @media screen and (min-width:1024px) {
+    nav ul{
+      margin-top: 20px;
+    }
+    
+  }

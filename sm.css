@@ -95,3 +95,14 @@ section{
 }
 }
 
+@media screen and (max-width:425px) {
+    .logonav1{
+        width: 177px;
+    }
+}
+@media screen and (min-width:506px) {
+    section{
+        margin-top: 50px;
+    }
+    
+}

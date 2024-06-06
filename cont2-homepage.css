@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container22{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left h6{
+    color: #DFA667;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: poppins;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.left h1{
+    color: #111111;
+    font-family: aldrich;
+    font-weight: 400;
+}
+.left p{
+    font-family: poppins;
+    font-weight: 400;
+    color: #000000;
+}
+@media screen and (max-width:768px) {
+    .left h6{
+        width: 292px;
+        text-align: left;
+        margin-bottom: 6px;
+    }
+    .left h1{
+        margin-bottom: 20px;
+        
+        line-height: 36px;
+        width: 292px;
+        text-align: left;
+        white-space: normal;
+        word-wrap: break-word;
+        font-size: 28px;
+    }
+    .left p{
+        font-size: 16px;
+        line-height: 30px;
+        width: 292px;
+        white-space: normal;
+        word-wrap: break-word;
+        text-align: left;
+    }
+    .container22{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 61px;
+        margin-top: 37px;
+    }
+    .container22 img{
+        width: 243px;
+    }
+    
+
+
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+    .container22 img{
+        width: 269px;
+    }
+    .left h1{
+        font-size: 28px;
+    }
+   
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .left h6{
+        width: 368px;
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 6px;
+    }
+    .left h1{
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 26px;
+        width: 368px;
+        text-align: left;
+        white-space: normal;
+        word-wrap: break-word;
+        font-size: 30px;
+        line-height: 39px;
+       
+        
+    }
+    .left p{
+        font-size: 16px;
+        line-height: 30px;
+        width: 368px;
+        white-space: normal;
+        word-wrap: break-word;
+        text-align: left;
+    }
+    .container22{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 38px;
+        margin-top: 86px;
+    }
+    .container22 img{
+        width: 283px;
+    }
+    .left{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+}
+@media screen and (min-width:1024px) and (max-width:1440px){
+    .left h6{
+        width: 377px;
+        text-align: left;
+        margin-bottom: 6px;
+    }
+    .left h1{
+        margin-bottom: 20px; 
+        font-size: 22px;
+        line-height: 26px;
+        width: 377px;
+        text-align: left;
+        white-space: normal;
+        word-wrap: break-word;
+        font-size: 30px;
+        line-height: 39px;
+        
+    }
+    .left p{
+        font-size: 16px;
+        line-height: 30px;
+        width: 377px;
+        white-space: normal;
+        word-wrap: break-word;
+        text-align: left;
+    }
+    .container22{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 110px;
+    }
+    .container22 img{
+        width: 329px;
+    }
+    .left{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width:1440px){
+    .left h6{
+        width: 537px;
+        text-align: left;
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+    .left h1{
+        margin-bottom: 20px; 
+        font-size: 42px;
+        line-height: 50px;
+        width: 537px;
+        text-align: left;
+        white-space: normal;
+        word-wrap: break-word;
+        
+    }
+    .left p{
+        font-size: 20px;
+        line-height: 37.5px;
+        width: 537px;
+        white-space: normal;
+        word-wrap: break-word;
+        text-align: left;
+    }
+    .container22{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 112px;
+        margin-top: 110px;
+    }
+    .container22 img{
+        width: 470px;
+    }
+    .left{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}

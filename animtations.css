@@ -53,3 +53,15 @@
   .showmorediv p:hover{
     color: white;
   }
+
+  .contactlink1 {
+   
+    transition: all 0.5s ease-in-out; /* Add transition for smooth effect */
+  }
+  
+  .contactlink1:hover {
+    color: #dfa667; /* Change text color on hover */
+    background-color: white; /* Change background color on hover */
+    border: 2px solid #dfa667; /* Add border on hover */
+  }
+  

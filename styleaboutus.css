@@ -233,21 +233,22 @@ a{
 .homepage:hover{
   text-decoration: underline;
   text-decoration-color: #dfa667;
-  transform: scale(1.05);
+  transform: scale(1.05) translateY(-2px);
   text-underline-offset: 3px;  
 transition: text-decoration-color 0.2s ease-out ;
+
 }
 .aboutus2:hover{
   text-decoration: underline;
   text-decoration-color: #dfa667;
-  transform: scale(1.05);
+  transform: scale(1.05) translateY(-2px);
   text-underline-offset: 3px;  
 transition: text-decoration-color 0.2s ease-out ;
 }
 .help1:hover{
   text-decoration: underline;
   text-decoration-color: #dfa667;
-  transform: scale(1.05);
+  transform: scale(1.05) translateY(-2px);
   text-underline-offset: 3px;  
 transition: text-decoration-color 0.2s ease-out ;
 }

@@ -163,8 +163,5 @@ a{
     }
  
 }
-.showmoredivi:hover .showmorediv {
-    transform: scale(1.1); /* Increase the size by 10% on hover */
-    transition: transform 0.2s ease-in-out; /* Smooth animation over 0.2 seconds */
-  }
+
   

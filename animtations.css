@@ -1,0 +1,55 @@
+.contactusdiv {
+  /* Default styles for the contact us div */
+  background-color: #DFA667; /* Assuming this was intended for the div */
+  border-radius: 10px; /* Adjust as needed */
+   /* Add some padding for better visuals */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  display: inline-block; /* Ensures the button behaves like a button visually */
+  cursor: pointer; /* Indicates clickable behavior on hover */
+}
+
+.contactusdiv a {
+  /* Styles for the anchor tag (link) within the div */
+  color: white; /* Default text color */
+  text-decoration: none; /* Remove underline for a cleaner look */
+}
+
+.contactusdiv:hover {
+  /* Styles applied on hover */
+  background-color: white;
+  transform: translateY(-3px); /* Adjust as needed for desired movement */
+   /* Reintroduce border here */
+}
+
+.contactusdiv:hover a {
+  /* Styles for the anchor tag (link) on hover */
+  color: #DFA667; /* New text color on hover */
+}
+
+  
+.showmorediv:hover {
+  background-color: #dfa667;
+  border: none;
+}
+
+.showmoredivi:hover .showmore {
+  color: white;
+}
+.showmoredivi:hover .showmorediv {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}
+.showmorediv{
+  transition: all 0.2s ease-in-out;
+}
+  .project1,.project2,.project3,.project4,.project5,.project6{
+    transition: all 0.3 ease-in-out;
+  }
+  .prj:hover{
+    border-bottom: 5px solid #DFA667;
+  }
+  .hover:hover{
+    transform: translateY(-2px);
+  }
+  .showmorediv p:hover{
+    color: white;
+  }

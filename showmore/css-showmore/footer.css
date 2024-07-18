@@ -1,0 +1,350 @@
+.container55{
+    background-color: #101010;
+}
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:768px) {
+    
+    .quote{
+        display: none;
+    }
+    .logofooter{
+        width: 211px;
+
+    }
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftmidcont5 h1{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: #ffffff;
+}
+.rightmidcont5 h1{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.leftmidcont5{
+    display: flex;
+    flex-direction: column;
+
+}
+.rightmidcont5{
+    display: flex;
+    flex-direction: column;
+}
+.leftmidcont5 a{
+    font-family: poppins;
+    font-size: 15px;
+    color: #707070;
+    font-weight: 400;
+    line-height: 36px;
+}
+.rightmidcont5 p{
+    font-family: poppins;
+    font-size: 15px;
+    color: #707070;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+.midcont5{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 1px;
+    color: #C8CEE3;
+}
+.logoinfo h1{
+    font-family: aldrich;
+    font-size: 14px;
+    font-weight: 400;
+    color: #b7b7b7;
+    line-height: 14px;
+    
+}
+.logoinfo p{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+    color: #DFA667;
+    line-height: 23px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:14px ;
+}
+.logos1{
+    display: flex;
+    flex-direction: column;
+}
+.logos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.quote{
+    text-align: left;
+    font-family: allura;
+    color: white;
+}
+@media screen and (max-width:767px) {
+   
+    .midcont5{
+        margin-top: 31px;
+    }
+    .info{
+        margin-top: 72px;
+    }
+    .logoinfo{
+        order: 1;
+        text-align: center;
+    }
+    .logos{
+        order: 2;
+    }
+}
+@media screen and (min-width:320px)and (max-width:375px){
+    .logos{
+        border-top: #C8CEE3 solid 1px;
+        width: 250px;
+        color: #C8CEE3;
+        display: flex;
+        flex-direction: row;
+        gap: 42px;
+    }
+
+    .logos1{
+        margin-top: 72px;
+        gap: 14px;
+    }
+}
+@media screen and (min-width:375px)and (max-width:425px){
+    .logos{
+        border-top: #C8CEE3 solid 1px;
+        width: 293px;
+        color: #C8CEE3;
+        display: flex;
+        flex-direction: row;
+        gap: 57px;
+    }
+
+    .logos1{
+        margin-top: 72px;
+        gap: 14px;
+    }
+}
+@media screen and (min-width:425px)and (max-width:768px){
+    .logos{
+        border-top: #C8CEE3 solid 1px;
+        width: 293px;
+        color: #C8CEE3;
+        display: flex;
+        flex-direction: row;
+        gap: 57px;
+    }
+
+    .logos1{
+        margin-top: 72px;
+        gap: 14px;
+    }
+}
+@media screen and (min-width:768px)and (max-width:1024px){
+    .logos1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .topibaba{
+        max-width: 648px;
+        display: flex;
+        justify-content:center;
+        
+        justify-content: space-between;
+    }
+    .topi1baba{
+        width: 100%;
+    }
+    .container55{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .container5{
+        max-width: 648px;
+        margin: 0 auto;
+    }
+   .botcont5{
+    margin-top: 50px;
+    width: 100%;
+   }
+   .logos1{
+    justify-content: space-between;
+    max-width: 648px;
+    border-top: #C8CEE3 solid 1px;
+   }
+   .logos{
+    display: flex;
+    gap: 42.5px;
+   }
+.quote{
+    font-size: 20px;
+    
+}
+.topcont5{
+    display: flex;
+    flex-direction: column;
+    
+}
+.logoinfo p{
+    text-align: right;
+}
+.logoinfo h1{
+    text-align: right;
+}
+}
+
+
+    .topi1baba{
+        margin-top: 60px;
+    }
+    
+
+@media screen and (min-width:1024px)and (max-width:1440px){
+    .topi1baba{
+        width: 100%;
+    }
+  .topibaba{
+    display: flex;
+    max-width: 882px;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+    margin-bottom: 54px;
+  }
+  .logos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #C8CEE3 solid 1px;
+    max-width: 882px;
+    margin: 0 auto;
+    
+  }
+  .logos{
+    display: flex;
+    gap: 42.5px;
+  }
+  .botcont5{
+    width: 100%;
+  }
+  .quote{
+    font-size: 29px;
+    margin-top: 19px;
+  }
+  .logoinfo p{
+    text-align: right;
+}
+.logoinfo h1{
+    text-align: right;
+}
+}
+@media screen and (min-width:1440px){
+    .topi1baba{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  .topibaba{
+    display: flex;
+    max-width: 1500px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 54px;
+  }
+  .logos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #C8CEE3 solid 1px;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+  }
+  .logos{
+    display: flex;
+    gap: 42.5px;
+  }
+  .botcont5{
+    width: 1000px;
+  }
+  .quote{
+    font-size: 29px;
+    margin-top: 19px;
+  }
+  .logoinfo p{
+    text-align: right;
+}
+.logoinfo h1{
+    text-align: right;
+}
+.info{
+    text-align: right;
+}
+}
+
+.bgblue1{
+z-index: -99;
+width: 45%;
+height: 20%;
+}
+.bgblue2{
+    z-index: -99;
+    width: 45%;
+    height: 20%;
+}
+.leftmidcont5 h1{
+    margin-bottom: 6px;
+}
+.rightmidcont5 h1{
+    margin-bottom: 6px;
+}
+.hover:hover{
+    text-decoration: underline;
+    text-decoration-color: #707070;
+    transform: scale(1.05);
+    text-underline-offset: 3px;  
+  transition: text-decoration-color 0.2s ease-out ;
+  }
+  body {
+    background-color: #101010;
+    /* Vendor prefixes for older browsers (not recommended for modern development) */
+    -webkit-background-color: #101010; /* Safari, Chrome, etc. */
+    -moz-background-color: #101010; /* Firefox */
+    -ms-background-color: #101010; /* Internet Explorer, Edge */
+    -o-background-color: #101010; /* Opera (less common now) */
+  }

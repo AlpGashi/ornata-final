@@ -1,0 +1,22 @@
+.navelements li a{
+    transition: all 0.3 ease-in-out;
+  }
+ 
+  .project1,.project2,.project3,.project4,.project5,.project6,.project7,.project8,.project9,.project10,.project11,.project12,.project13,.project14,.project15,.btn1,.homepage,.aboutus2,.help1{
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .homepage:hover,.aboutus2:hover,.help1:hover{
+    text-decoration: underline;
+    text-decoration-color: #c0c0c0;
+    transform: scale(1.05);
+    text-underline-offset: 3px;  
+
+  }
+.homepage,.aboutus2,.help1{
+  text-decoration-color:white ;
+}
+.btn1:hover{
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}

@@ -1,0 +1,202 @@
+@media screen and (max-width:768px){
+    .container{
+        display: grid;
+        
+        grid-template-rows: repeat(15,222px);
+        justify-content: center;
+       margin-top: 20px;
+        grid-gap: 40px;
+        
+        
+    }
+   .header{
+    margin-top: 40px;
+   }
+   .title{
+    color: #C0C0C0;
+    font-size: 15px;
+    letter-spacing: 4px;
+   }
+   .header p{
+    
+    width: 214px;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .logonav{
+    height: 50px;
+    width: 150px;
+   }
+   nav{
+    height: 50px;
+    width: 95%;
+    margin-top: 10px;
+   }
+    
+
+    .container img{
+        width: 100%;
+        height: 222px;
+    }
+}
+@media screen and (min-width:768px)and (max-width:1024px){
+    .container{
+        display: grid;
+        
+        grid-template-rows: repeat(6,273px);
+        grid-template-columns: repeat(2,321px);
+        justify-content: center;
+       margin-top: 40px;
+        grid-gap: 40px;
+        
+        
+    }
+    .header{
+        margin-top: 40px;
+       }
+       .title{
+        color: #C0C0C0;
+        font-size: 20px;
+        letter-spacing: 4px;
+       }
+       .header p{
+        width: 534px;
+        text-align: center;
+        margin-top: 10px;
+       }
+       nav{
+        height: 50px;
+        width: 95%;
+        margin-top: 10px;
+       }
+       .container img{
+        width: 100%;
+        height: 222px;
+    }
+    .container img{
+        width: 100%;
+        height: 273px;
+    }
+    .logonav{
+        height: 70px;
+        width: 150px;
+       }
+       .lastimg{
+        display: none;
+    }
+}
+@media screen and (min-width:1024px)and (max-width:1600px) {
+    .container{
+        display: grid;
+        padding-bottom: 65px;
+        grid-template-rows: repeat(5,273px);
+        grid-template-columns: repeat(3,321px);
+        justify-content: center;
+       margin-top: 40px;
+        grid-gap: 40px;
+        
+    }
+    nav{
+        height: 70px;
+        width: 95%;
+        margin-top: 10px;
+       }
+       .title{
+        color: #C0C0C0;
+        font-size: 20px;
+        letter-spacing: 4px;
+       }
+       .header p{
+        width: 652px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: inter;
+        line-height: 28px;
+       }
+       .title{
+        color: #C0C0C0;
+        font-size: 27px;
+        letter-spacing: 4px;
+        margin-top: 50px;
+       }
+
+}
+@media screen and (min-width:1800px)  {
+    nav{
+        height: 70px;
+        width: 95%;
+        margin-top: 10px;
+       }
+    .container{
+        display: grid;
+        padding-bottom: 65px;
+        grid-template-rows: repeat(3,273px);
+        grid-template-columns: repeat(5,321px);
+        justify-content: center;
+       margin-top: 40px;
+        grid-gap: 40px;
+    }
+    .title{
+        color: #C0C0C0;
+        font-size: 20px;
+        letter-spacing: 4px;
+       }
+       .header p{
+        width: 1000px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: inter;
+        line-height: 42px;
+       }
+       .title{
+        color: #C0C0C0;
+        font-size: 40.5px;
+        letter-spacing: 4px;
+        margin-top: 50px;
+       }
+
+}
+@media screen and (min-width:1600px) and (max-width:1800px){
+    .container{
+        display: grid;
+        padding-bottom: 65px;
+        grid-template-rows: repeat(4,273px);
+        grid-template-columns: repeat(4,321px);
+        justify-content: center;
+       margin-top: 40px;
+        grid-gap: 40px;
+    }
+    nav{
+        height: 70px;
+        width: 95%;
+        margin-top: 10px;
+       }
+       .title{
+        color: #C0C0C0;
+        font-size: 20px;
+        letter-spacing: 4px;
+       }
+       .header p{
+        width: 652px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: inter;
+        line-height: 28px;
+       }
+       .title{
+        color: #C0C0C0;
+        font-size: 27px;
+        letter-spacing: 4px;
+        margin-top: 50px;
+       }
+       .topi1baba{
+        width:1300px;
+    }
+    .botcont5{
+        width: 1300px;
+    }
+    
+}

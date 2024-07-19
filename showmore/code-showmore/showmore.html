@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css-showmore/footer.css">
     <link rel="stylesheet" href="../css-showmore/shomorecontainer.css">
     <link rel="stylesheet" href="../css-showmore/animtaions-showmore.css">
+    <link rel="stylesheet" href="../css-showmore/slider.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
@@ -43,23 +44,61 @@
     <p>Unleash the potential of your space. Click to explore our design portfolio and discover how we can craft an interior that reflects your unique style and brings your dream home to life.</p>
    </div>
    <div class="container">
-    <a href=""><img class="prj project1" src="../images-showmore/img01.png" alt=""></a>
-    <a href=""><img class="prj project2" src="../images-showmore/img02.png" alt=""></a>
-    <a href=""><img class="prj project3" src="../images-showmore/img03.png" alt=""></a>
-    <a href=""><img class="prj project4" src="../images-showmore/img04.png" alt=""></a>
-    <a href=""><img class="prj project5" src="../images-showmore/img05.png" alt=""></a>
-    <a href=""><img class="prj project6" src="../images-showmore/img06.png" alt=""></a>
-    <a href=""><img class="prj project7" src="../images-showmore/img07.png" alt=""></a>
-    <a href=""><img class="prj project8" src="../images-showmore/img08.png" alt=""></a>
-    <a href=""><img class="prj project9" src="../images-showmore/img09.png" alt=""></a>
-    <a href=""><img class="prj project10" src="../images-showmore/img10.png" alt=""></a>
-    <a href=""><img class="prj project11" src="../images-showmore/img11.png" alt=""></a>
-    <a href=""><img class="prj project12" src="../images-showmore/img12.png" alt=""></a>
-    <a href=""><img class="prj project13" src="../images-showmore/img13.png" alt=""></a>
-    <a href=""><img class="prj project14" src="../images-showmore/img14.png" alt=""></a>
-    <a href=""><img class="prj project15" src="../images-showmore/img15.png" class="lastimg" alt=""></a>
-   
-   </div>
+    <img src="../images-showmore/img01.png" onclick="FullView(this.src)">
+    <img src="../images-showmore/img02.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img03.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img04.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img05.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img06.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img07.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img08.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img09.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img10.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img11.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img12.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img13.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img14.png" onclick="FullView(this.src)" alt="">
+    <img src="../images-showmore/img15.png" onclick="FullView(this.src)" alt="">
+</div>
+<div id="FullImageView">
+    <img id="FullImage"/>
+    <span id="CloseButton" onclick="CloseFullView()">&times;</span>
+    <span id="PrevButton" onclick="changeImage(-1)">&lt;</span>
+    <span id="NextButton" onclick="changeImage(1)">&gt;</span>
+</div>
+<script type="text/javascript">
+   let currentIndex = 0;
+let images = [];
+
+function FullView(ImgLink) {
+// Store all image links
+images = Array.from(document.querySelectorAll('.container img')).map(img => img.src);
+currentIndex = images.indexOf(ImgLink);
+
+const fullImageView = document.getElementById("FullImageView");
+document.getElementById("FullImage").src = ImgLink;
+
+fullImageView.style.display = "block";
+
+// Prevent body from scrolling
+document.body.classList.add('no-scroll');
+}
+
+function CloseFullView() {
+const fullImageView = document.getElementById("FullImageView");
+fullImageView.style.display = "none";
+
+// Allow body scrolling again
+document.body.classList.remove('no-scroll');
+}
+
+function changeImage(direction) {
+currentIndex = (currentIndex + direction + images.length) % images.length;
+document.getElementById("FullImage").src = images[currentIndex];
+}
+
+</script>
+
    <div class="container55">
     <div class="container5">
       <div class="topi1baba">

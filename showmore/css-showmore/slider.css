@@ -1,0 +1,113 @@
+.container img {
+    max-width: 587px;
+    max-height: 500px;
+}
+
+@media screen and (max-width:768px) {
+    .container img{
+        max-width: 245px;
+        max-height: 222px;
+ 
+        
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container img{
+        max-width: 321px;
+        max-height: 273px;
+ 
+        
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .container img{
+        max-width: 245px;
+        max-height: 222px;
+ 
+        
+    }
+}
+@media screen and (min-width:1440px)  {
+    .container{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    .container img{
+        max-width: 321px;
+        max-height: 273px;
+ 
+        
+    }
+}
+
+.container img:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+#FullImageView {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    z-index: 1000;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#FullImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    max-height: calc(100vh - 40px);
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+}
+
+#CloseButton {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+#PrevButton, #NextButton {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    user-select: none;
+    transform: translateY(-50%);
+}
+
+#PrevButton {
+    left: 12px;
+}
+
+#NextButton {
+    right: 12px;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+

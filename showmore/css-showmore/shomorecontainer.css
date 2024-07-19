@@ -1,5 +1,5 @@
 @media screen and (max-width:768px){
-    .container{
+    .container  .gallery{
         display: grid;
         
         grid-template-rows: repeat(15,222px);
@@ -40,7 +40,7 @@
     }
 }
 @media screen and (min-width:768px)and (max-width:1024px){
-    .container{
+    .container  .gallery{
         display: grid;
         
         grid-template-rows: repeat(6,273px);
@@ -86,7 +86,7 @@
     }
 }
 @media screen and (min-width:1024px)and (max-width:1600px) {
-    .container{
+    .container  .gallery{
         display: grid;
         padding-bottom: 65px;
         grid-template-rows: repeat(5,273px);
@@ -128,7 +128,7 @@
         width: 95%;
         margin-top: 10px;
        }
-    .container{
+    .container  .gallery{
         display: grid;
         padding-bottom: 65px;
         grid-template-rows: repeat(3,273px);
@@ -159,7 +159,7 @@
 
 }
 @media screen and (min-width:1600px) and (max-width:1800px){
-    .container{
+    .container .gallery{
         display: grid;
         padding-bottom: 65px;
         grid-template-rows: repeat(4,273px);

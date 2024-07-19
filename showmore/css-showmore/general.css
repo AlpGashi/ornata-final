@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 .header p{
     white-space: normal;
@@ -17,3 +18,4 @@
 .quote{
     font-family: allura;
 }
+/* Popup */
